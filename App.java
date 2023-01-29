@@ -48,9 +48,24 @@ public class App {
 			print("They are different objets.");
 		}
 
+		/*
+		If we want to compare the content of two strings then we have to the use the equals() method. In this case we have only one object 
+		saved in the heap but this is irrelevant. The equals() method will compare the contents of this one string as it was two different 
+		strings saved in the heap.
+		*/
 		if (s1.equals(s2)){
+                        print("The content of the two strings is the same.");
+                }
+                else{
+                        print("The content of the two strings is different.");
+                }
+		if (s3.equals(s4)){
+                        print("The content of the two strings is the same.");
+                }
+                else{
+                        print("The content of the two strings is different.");
+                }
 
-		}
 	}
 
 	public static void print (Object obj) {
