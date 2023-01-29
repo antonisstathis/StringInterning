@@ -49,7 +49,7 @@ public class App {
 		}
 
 		/*
-		If we want to compare the content of two strings then we have to the use the equals() method. In this case we have only one object 
+		If we want to compare the content of two strings then we have to use the equals() method. In this case we have only one object 
 		saved in the heap but this is irrelevant. The equals() method will compare the contents of this one string as it was two different 
 		strings saved in the heap.
 		*/
