@@ -1,8 +1,7 @@
 public class App {
 
 	public static void main (String[] args) {
-		
-		//print("Hello World!!");	
+			
 		String s1 = "hello";
 		String s2 = "hello";
 
