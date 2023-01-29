@@ -12,10 +12,10 @@ public class App {
 		same information again.
 		*/
 		if (s1 == s2) {
-			print("They are the same objets.");
+			print("They are the same objects.");
 		}
 		else{
-			print("They are different objets.");
+			print("They are different objects.");
 		}
 
 		/*
@@ -28,10 +28,10 @@ public class App {
 		String s3 = new Integer(5).toString();
 		String s4 = "5";
 		if (s3 == s4) {
-			print("They are the same objets.");
+			print("They are the same objects.");
 		}
 		else{
-			print("They are different objets.");
+			print("They are different objects.");
 		}
 
 		/*
@@ -42,10 +42,10 @@ public class App {
 		String s5 = new Integer(5).toString().intern();
 		String s6 = "5";
 		if (s5 == s6) {
-			print("They are the same objets.");
+			print("They are the same objects.");
 		}
 		else{
-			print("They are different objets.");
+			print("They are different objects.");
 		}
 
 		/*
